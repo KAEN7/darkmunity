@@ -20,6 +20,11 @@ const GlobalStyle = createGlobalStyle`
   ul {
     list-style: none;
   }
+
+  button {
+    outline: none;
+    border: none;
+  }
 `;
 
 export default GlobalStyle;

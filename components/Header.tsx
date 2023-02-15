@@ -33,6 +33,8 @@ const HeaderComponent = styled.header`
 	width: 100vw;
 	position: fixed;
 	padding: 0.5rem 2rem;
+	background: rgba(10, 10, 10, 0.23);
+	z-index: 98;
 `;
 
 const Nav = styled.nav`

@@ -29,6 +29,7 @@ export const color = {
 	black: "#181a1e",
 	gray: "#1C1D21",
 	point: "#FFDB60",
+	darkPoint: "#CF9A0D",
 	lightGray: "#353945",
 };
 
@@ -40,6 +41,7 @@ export const page = css`
 	width: 100vw;
 	height: 100vh;
 	padding: 1rem;
+	padding-top: 10rem;
 	box-sizing: border-box;
 	background: linear-gradient(
 		180deg,
