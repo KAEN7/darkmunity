@@ -16,7 +16,7 @@ const Map = ({ router }: any) => {
 	return (
 		<MapComponent>
 			<Head>
-				<title>Darkmunity | Map</title>
+				<title>Darkmunity | 지도</title>
 				<meta
 					name="description"
 					content="This is Community website for Dark and Darker, Welcome to Darkmunity "

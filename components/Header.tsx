@@ -16,11 +16,10 @@ const Header = () => {
 			</Link>
 
 			<Nav>
-				<Link href="/">특전 및 스킬</Link>
-				<span>|</span>
+				<Link href="/board">특전 및 스킬</Link>
 				<Link href="/maps">지도</Link>
-				<span>|</span>
-				<Link href="/party">집회소</Link>
+
+				{/* <Link href="/party">집회소</Link> */}
 			</Nav>
 		</HeaderComponent>
 	);
@@ -32,19 +31,26 @@ const HeaderComponent = styled.header`
 	align-items: center;
 	width: 100vw;
 	position: fixed;
-	padding: 0.5rem 2rem;
+	padding: 0.5rem 3rem;
 	background: rgba(10, 10, 10, 0.23);
 	z-index: 98;
 `;
 
 const Nav = styled.nav`
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	width: 15rem;
 
 	a {
 		letter-spacing: 0.1rem;
+		margin-right: 0.5rem;
+		padding: 0rem 0.5rem;
+		border-right: 1.5px solid ${color.white};
+
+		&:last-child {
+			border: none;
+			padding-right: 0rem;
+			margin-right: 0rem;
+		}
 	}
 `;
 

@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styled from "styled-components";
+import NotiBoard from "../components/NotiBoard";
 import Popular from "../components/Popular";
 import { overflowY, page } from "../styles/theme";
 
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
 			</Head>
 
 			<Popular />
+			<NotiBoard />
 		</HomeComponent>
 	);
 };
@@ -24,8 +26,6 @@ const Home: NextPage = () => {
 const HomeComponent = styled.main`
 	${page}
 	${overflowY}
-
-	padding-top: 10rem;
 `;
 
 export default Home;
