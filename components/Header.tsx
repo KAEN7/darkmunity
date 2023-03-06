@@ -16,7 +16,8 @@ const Header = () => {
 			</Link>
 
 			<Nav>
-				<Link href="/board">특전 및 스킬</Link>
+				<Link href="/board">게시판</Link>
+				<Link href="/board">특전 & 스킬</Link>
 				<Link href="/maps">지도</Link>
 
 				{/* <Link href="/party">집회소</Link> */}
